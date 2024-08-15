@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="Project2.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Project2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBox x:Name="InputTextBox" PlaceholderText="Enter a number" />
+        <Button Content="Convert to Base 13" Click="ConvertToBase13_Click" />
+        <Button Content="Convert from Base 13" Click="ConvertFromBase13_Click" />
+        <TextBlock x:Name="OutputTextBlock" />
+    </StackPanel>
+</Window>

@@ -1,0 +1,1 @@
+C:\DeveloperCode\c#\Practice\Project2\Project2.csproj;x86
